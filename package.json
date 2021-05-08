@@ -8,7 +8,7 @@
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
     "lint": "vue-cli-service lint",
-    "commit": "cz"
+    "commit": "yarn lint && git add . && cz"
   },
   "dependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.2",
