@@ -10,6 +10,7 @@ export default createStore({
     setImages(state, images: string[]) {
       state.images = images;
     },
+
     async updateImagesBySearch(state, search: string) {
       try {
         const response = await api.get(
@@ -22,6 +23,21 @@ export default createStore({
         }
       } catch (err) {
         alert(err);
+      }
+    },
+
+    async reloadImages(state) {
+      try {
+        const response = await api.get("/api/fetch-all-images");
+        if (response.status === 200) {
+          state.images = response.data;
+        } else {
+          alert(response.data.errors);
+          state.images = [];
+        }
+      } catch (err) {
+        alert(err);
+        state.images = [];
       }
     },
   },
