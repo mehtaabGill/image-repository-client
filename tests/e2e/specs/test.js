@@ -1,18 +1,14 @@
-// For authoring Nightwatch tests, see
-// https://nightwatchjs.org/guide
-
 module.exports = {
-  "default e2e tests": (browser) => {
+  "test all components": (browser) => {
     browser
       .init()
       .waitForElementVisible("#app")
-      .assert.elementPresent(".hello")
-      .assert.containsText("h1", "Welcome to Your Vue.js + TypeScript App")
-      .assert.elementCount("img", 1)
+      .assert.containsText("h1", "Image Repository")
+      .assert.elementPresent("#search")
+      .assert.elementPresent("#search-button")
+      .assert.elementPresent("#image")
+      .assert.elementPresent("#upload-image-button")
+      .assert.elementPresent("#image-grid")
       .end();
-  },
-
-  "example e2e test using a custom command": (browser) => {
-    browser.openHomepage().assert.elementPresent(".hello").end();
   },
 };
