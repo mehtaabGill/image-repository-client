@@ -40,6 +40,10 @@ export default createStore({
         state.images = [];
       }
     },
+
+    pushNewImage(state, imageName: string) {
+      state.images.push(imageName);
+    },
   },
   getters: {
     getImages(state) {

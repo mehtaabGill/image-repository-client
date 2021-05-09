@@ -30,6 +30,7 @@
 import { defineComponent } from "vue";
 
 import api from "@/api";
+import store from "@/store";
 
 export default defineComponent({
   name: "ImageUploader",
@@ -62,7 +63,7 @@ export default defineComponent({
         });
 
         if (response.status === 200) {
-          window.location.reload();
+          store.commit("pushNewImage", response.data.imageName);
         } else {
           this.$toast.error(`Image Upload Error: ${response.data.errors}`);
         }
