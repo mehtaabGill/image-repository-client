@@ -16,7 +16,7 @@
   </div>
 </template>
 
-<script lang="typescript">
+<script>
 import { defineComponent } from "vue";
 
 import store from "@/store";
@@ -30,11 +30,11 @@ export default defineComponent({
   },
   methods: {
     updateImagesBySearch() {
-        if(!this.search) {
-            alert('Invalid search query!');
-        } else {
-            store.commit("updateImagesBySearch", this.search);
-        }
+      if (!this.search) {
+        this.$toast.error("Invalid Search Query...");
+      } else {
+        store.commit("updateImagesBySearch", this.search);
+      }
     },
   },
 });

@@ -45,7 +45,7 @@ export default defineComponent({
         this.image = event.target.files[0];
         await this.uploadFile();
       } catch (err) {
-        alert(err);
+        this.$toast.error(`Image Upload Error: ${err}`);
       } finally {
         this.UPLOAD_STATE = "READY";
       }
@@ -63,10 +63,10 @@ export default defineComponent({
         if (response.status === 200) {
           window.location.reload();
         } else {
-          alert(response.data.errors);
+          this.$toast.error(`Image Upload Error: ${response.data.errors}`);
         }
       } catch (err) {
-        alert(err);
+        this.$toast.error(`Image Upload Error: ${err}`);
       }
     },
   },
