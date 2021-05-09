@@ -1,5 +1,5 @@
 <template>
-  <div class="my-auto max-w-sm">
+  <div class="my-auto max-w-sm border-2 rounded-md border-gray-100">
     <img :src="imageURL" alt="image" />
   </div>
 </template>

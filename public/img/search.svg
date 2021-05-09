@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14.03" height="14.03" viewBox="0 0 14.03 14.03">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Search_icon" data-name="Search icon" d="M13.155,14.03a.87.87,0,0,1-.619-.257L9.779,11.017A6.106,6.106,0,0,1,6.1,12.242,6.106,6.106,0,0,1,0,6.128,6.127,6.127,0,0,1,10.46,1.795,6.073,6.073,0,0,1,12.23,5.7a6.153,6.153,0,0,1-1.213,4.074l2.757,2.758a.875.875,0,0,1-.619,1.494ZM6.128,1.751A4.377,4.377,0,1,0,9.223,3.033,4.346,4.346,0,0,0,6.128,1.751Z" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Icon_Right_" data-name="Icon (Right)" transform="translate(-1 -1)">
+    <g id="Group_18" data-name="Group 18" transform="translate(1 1)">
+      <path id="Search_icon-2" data-name="Search icon" d="M13.155,14.03a.87.87,0,0,1-.619-.257L9.779,11.017A6.106,6.106,0,0,1,6.1,12.242,6.106,6.106,0,0,1,0,6.128,6.127,6.127,0,0,1,10.46,1.795,6.073,6.073,0,0,1,12.23,5.7a6.153,6.153,0,0,1-1.213,4.074l2.757,2.758a.875.875,0,0,1-.619,1.494ZM6.128,1.751A4.377,4.377,0,1,0,9.223,3.033,4.346,4.346,0,0,0,6.128,1.751Z" transform="translate(0 0)" fill="none"/>
+      <g id="Mask_Group_72" data-name="Mask Group 72" clip-path="url(#clip-path)">
+        <g id="_Color" data-name="↳ 🎨Color" transform="translate(-1 -1)">
+          <rect id="Base" width="16" height="16" fill="#c5d0de"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

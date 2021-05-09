@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-3 gap-4 justify-items-center">
+  <div class="grid grid-cols-3 gap-x-6 gap-y-8 justify-items-center">
     <ImageContainer
       v-for="image in images"
       :imageURL="`${imageBaseURL}/${image}`"
