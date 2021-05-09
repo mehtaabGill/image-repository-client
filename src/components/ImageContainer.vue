@@ -9,8 +9,5 @@ import { defineComponent } from "vue";
 
 export default defineComponent({
   props: ["imageURL"],
-  setup(props) {
-    console.log(props.imageURL);
-  },
 });
 </script>

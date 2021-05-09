@@ -11,6 +11,7 @@
       <div
         v-if="UPLOAD_STATE === 'READY'"
         class="focus:outline-none bg-blue-500 text-white rounded-md px-10 py-2 max-w-xs"
+        id="upload-image-button"
       >
         Upload Image
       </div>

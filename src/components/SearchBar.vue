@@ -10,7 +10,11 @@
       class="focus:outline-none border rounded-md border-gray-100 w-10/12 p-1"
       v-model="search"
     />
-    <button @click="updateImagesBySearch" class="focus:outline-none">
+    <button
+      @click="updateImagesBySearch"
+      class="focus:outline-none"
+      id="search-button"
+    >
       <img src="/img/search.svg" alt="search" />
     </button>
   </div>
