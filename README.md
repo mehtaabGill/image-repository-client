@@ -1,5 +1,9 @@
 # image-repository-client
 
+## Demo Video
+
+https://user-images.githubusercontent.com/37054853/117561866-b4639300-b057-11eb-9944-4397086ac015.mp4
+
 ## This application requires to be connects to the backend API. Here are the steps to do so:
 1. Git clone the [API server](https://github.com/mehtaabGill/image-repository-server) and get it running.
 2. Git clone this repository and `cd` into the project folder
