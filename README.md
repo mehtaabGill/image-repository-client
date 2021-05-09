@@ -1,5 +1,8 @@
 # image-repository-client
 
+## Demo Video
+<iframe src="https://imagerepo.app/demo-video.mp4" allowfullscreen="true" frameborder="0"> </iframe>
+
 ## This application requires to be connects to the backend API. Here are the steps to do so:
 1. Git clone the [API server](https://github.com/mehtaabGill/image-repository-server) and get it running.
 2. Git clone this repository and `cd` into the project folder
